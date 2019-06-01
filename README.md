@@ -1,27 +1,28 @@
-# Logger
+# JSON Logger
 
 Simple JSON logger.
 
 ## Install
 
 ```bash
-npm install @bucuo/logger
+npm install @zhaoyao91/json-logger
 ```
 
 ## Usage
 
 ```js
-const { logger } = require("@bucuo/logger");
+const { logger } = require("@zhaoyao91/json-logger");
 
-// you can pass in msg, info and error in any order
-logger.$level(msg, info, error);
+logger.$level(msg, err, det);
 ```
 
-## Types
+Args are classified by types. You can pass in args in any order.
 
-- `msg`: string
-- `info`: plain object
-- `error`: `Error` like object (with proper `name` and `message` fields)
+## Arg Types
+
+- msg: `string`
+- err: `Error` or `Object` with string fields `name`, `message` and `stack`
+- det: plain `Object`
 
 ## Default Levels
 
@@ -51,6 +52,7 @@ bricks.
 See
 
 - [buildLogger](./lib/build_logger.js)
+- [buildOptionsByEnvs](./lib/build_options_by_envs.js)
 - [defaultOptions](./lib/predefined/default_options.js#L8)
 - [pre-defined bricks](./lib/predefined)
 

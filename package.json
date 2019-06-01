@@ -1,30 +1,26 @@
 {
-  "name": "@bucuo/logger",
+  "name": "@zhaoyao91/json-logger",
   "version": "0.0.0",
   "description": "Simple JSON logger.",
   "main": "index.js",
   "keywords": [
-    "bucuo",
+    "zhaoyao91",
     "json",
     "logger"
   ],
-  "repository": "https://github.com/bucuo-js/logger",
-  "author": "zhaoyao91@gmail.com",
+  "repository": "https://github.com/zhaoyao91-npm/json-logger",
+  "author": "zhaoyao91@aliyun.com",
   "license": "MIT",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
   },
+  "engines": {
+    "node": ">=8"
+  },
   "dependencies": {
-    "fast-safe-stringify": "^2.0.6",
-    "lodash.compose": "^2.4.1",
-    "lodash.iserror": "^3.1.1",
-    "lodash.isplainobject": "^4.0.6",
-    "lodash.isstring": "^4.0.1",
-    "lodash.mapvalues": "^4.6.0",
-    "lodash.trim": "^4.5.1",
-    "luxon": "^1.13.0"
+    "fast-safe-stringify": "^2.0.0"
   },
   "devDependencies": {
     "hasky": "^3.0.2",
