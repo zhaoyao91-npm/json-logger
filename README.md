@@ -44,6 +44,24 @@ see [Default Options](./lib/predefined/default_options.js#L8)
 - `LOG_ENABLE_TS`: boolean
 - `LOG_ENABLE_TSS`: boolean
 
+## Other Features
+
+### Lazy Args
+
+Debug logs are useful, but sometimes it's expensive to compute the args.
+
+By using `lazy args`, the evaluation won't happen if this log won't be printed.
+
+It's easy to use, just replace the args with a function which returns an array of lazy args.
+
+```js
+logger.debug(() => [
+  "lazy message",
+  new Error("lazy error"),
+  { lazy: "detail" }
+]);
+```
+
 ## Advanced
 
 If you are not satisfied with the default logger and env options, you could build logger with pre-defined or customized
