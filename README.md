@@ -43,6 +43,7 @@ see [Default Options](./lib/predefined/default_options.js#L8)
 - `LOG_PRINT_PRETTY`: boolean
 - `LOG_ENABLE_TS`: boolean
 - `LOG_ENABLE_TSS`: boolean
+- `LOG_ENABLE_TRACE`: boolean - Tracing is expensive, you know.
 
 ## Other Features
 

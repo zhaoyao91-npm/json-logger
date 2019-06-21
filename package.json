@@ -19,6 +19,7 @@
     "node": ">=8"
   },
   "dependencies": {
+    "callsites": "^3.1.0",
     "fast-safe-stringify": "^2.0.0"
   },
   "devDependencies": {
