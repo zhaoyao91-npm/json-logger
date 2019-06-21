@@ -4,7 +4,6 @@
   "description": "Simple JSON logger.",
   "main": "index.js",
   "keywords": [
-    "zhaoyao91",
     "json",
     "logger"
   ],
@@ -23,8 +22,8 @@
     "fast-safe-stringify": "^2.0.0"
   },
   "devDependencies": {
-    "hasky": "^3.0.2",
+    "husky": "^2.4.1",
     "prettier": "^1.17.0",
-    "quick-pretty": "^0.3.1"
+    "pretty-quick": "^1.11.1"
   }
 }
