@@ -1,7 +1,7 @@
 {
   "name": "@zhaoyao91/json-logger",
-  "version": "0.0.4",
-  "description": "Simple JSON logger.",
+  "version": "0.0.5",
+  "description": "",
   "main": "index.js",
   "keywords": [
     "json",
@@ -19,7 +19,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "callsites": "^3.1.0",
+    "dayjs": "^1.8.0",
     "fast-safe-stringify": "^2.0.0"
   },
   "devDependencies": {
