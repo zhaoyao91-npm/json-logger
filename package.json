@@ -1,7 +1,7 @@
 {
   "name": "@zhaoyao91/json-logger",
   "version": "0.0.5",
-  "description": "",
+  "description": "Opinionated, easy to use, simple JSON logger.",
   "main": "index.js",
   "keywords": [
     "json",
